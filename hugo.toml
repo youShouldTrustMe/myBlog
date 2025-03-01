@@ -1,5 +1,5 @@
-# baseURL = 'https://github.com/youShouldTrustMe/youShouldTrustMe.github.io//post//'
-baseURL = "https://example.org"
+baseURL = 'https://github.com/youShouldTrustMe/youShouldTrustMe.github.io/post/'
+# baseURL = "https://example.org"
 title = "TruestMe's Blog"
 theme = 'hugo-theme-reimu'
 
