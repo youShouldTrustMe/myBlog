@@ -1,3 +1,13 @@
+---
+title: 'Asm'
+date: 2025-03-01T11:00:00-07:00
+lastmod: 2025-03-01T11:00:00-07:00
+math:true
+mermaid:true
+---
+
+
+
 # 参考链接
 
 [汇编语言入门教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2018/01/assembly-language-primer.html)

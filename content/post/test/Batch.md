@@ -1,3 +1,13 @@
+---
+title: 'Batch'
+date: 2025-03-01T11:00:00-07:00
+lastmod: 2025-03-01T11:00:00-07:00
+math:true
+mermaid:true
+---
+
+
+
 #  批处理基础
 
 ## 注释
