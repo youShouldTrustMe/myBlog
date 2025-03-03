@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 baseURL = 'https://youShouldTrustMe.github.io'
+=======
+baseURL = 'https://youShouldTrustMe.github.io/'
+>>>>>>> cc4db423ddce9d038f9cdff075422b8505e3f7b3
 # baseURL = "https://example.org"
 title = "TruestMe's Blog"
 theme = 'hugo-theme-reimu'
