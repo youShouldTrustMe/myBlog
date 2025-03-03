@@ -1,0 +1,1653 @@
+<!doctype html>
+<html
+  lang="zh-cn" 
+  
+    data-theme-mode="auto"
+  
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+
+
+
+
+
+
+
+  
+
+<title>
+  Linux | TrustMe
+</title>
+<meta
+  name="description"
+  content="你要信我啊"
+/>
+
+
+
+
+
+
+
+
+
+
+<script>
+  window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"clipboard\":{\"copyright\":{\"content\":\"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！\",\"count\":50,\"enable\":false},\"fail\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"success\":\"复制成功(*^▽^*)\"},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_0khxww3tj3q9\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":\"本文最后更新于 {time}，请注意文中内容可能已经发生变化。\"}}");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+    
+  
+
+  
+    
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+  media="print"
+  onload="this.media='all'"
+/>
+
+
+
+
+
+
+  <link
+    rel="preload"
+    href="//at.alicdn.com/t/c/font_4552607_0khxww3tj3q9.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+
+
+
+  
+
+
+
+
+
+
+ <link rel="stylesheet" href="/css/loader.css" />
+
+
+
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Linux | TrustMe" />
+  <meta
+    property="og:description"
+    content="你要信我啊"
+  />
+  <meta property="og:url" content="http://localhost:1313/post/%E8%BD%AF%E4%BB%B6%E5%8F%8A%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8/linux/" />
+  <meta
+    property="og:site_name"
+    content="TruestMe&#39;s Blog"
+  />
+  <meta
+    property="og:image"
+    content="/"
+  />
+  <meta property="article:author" content="TrustMe" />
+  <meta property="article:published_time" content="2025-03-01T00:00:00&#43;00:00" />
+  <meta property="article:modified_time" content="2025-03-01T00:00:00&#43;00:00" />
+  
+    <meta property="article:tag" content="软件及工具" />
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="/" />
+  
+  
+  
+  
+  
+
+
+
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+
+
+
+ <link rel="stylesheet" href="/css/main.css" />
+
+
+
+
+
+  <link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+
+
+
+
+
+
+  <link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/katex@0.16.9/dist/katex.min.css"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
+    
+    
+    
+    
+    integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"
+  ></script>
+
+
+
+
+
+  
+
+
+  <link rel="stylesheet" href="https://npm.webcache.cn/@reimujs/aos@0.1.0/dist/aos.css" />
+
+
+
+
+
+  </head>
+  <body>
+    
+  <div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi">
+        
+          <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="#ff5252" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+          M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="#ff5252" />
+          </svg>
+        
+      </div>
+      <div class="loading-word">你要信我啊...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var startLoading = () => {
+      time = Date.now();
+      document.getElementById('loader').classList.remove("loading");
+    }
+    var endLoading = () => {
+      if (!time) {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loader').classList.add("loading");
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          document.body.style.overflow = 'auto';
+          document.getElementById('loader').classList.add("loading");
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    document.getElementById('loader').addEventListener('click', endLoading);
+  </script>
+
+
+<div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+</div>
+
+
+    <div id="container">
+      <div id="wrap">
+        
+<div id="header-nav">
+  <nav id="main-nav">
+    
+      <span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>
+          
+            
+              &#xe62b;
+            
+          
+        </div>
+        <a class="main-nav-link" href="/">首页</a>
+      </span>
+    
+      <span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>
+          
+            
+              &#xe62b;
+            
+          
+        </div>
+        <a class="main-nav-link" href="/archives">归档</a>
+      </span>
+    
+      <span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>
+          
+            
+              &#xe62b;
+            
+          
+        </div>
+        <a class="main-nav-link" href="/about">关于</a>
+      </span>
+    
+      <span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>
+          
+            
+              &#xe62b;
+            
+          
+        </div>
+        <a class="main-nav-link" href="/friend">友链</a>
+      </span>
+    
+    <a id="main-nav-toggle" class="nav-icon"></a>
+  </nav>
+  <nav id="sub-nav">
+    
+    
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="搜索"></a>
+    
+  </nav>
+</div>
+<header id="header">
+  
+    <picture>
+      
+    </picture>
+    
+      <img fetchpriority="high" src="/images/background.jpg" alt="Linux">
+    
+  
+
+  <div id="header-outer">
+    <div id="header-title">
+      
+        
+        
+          
+        
+  
+        
+          <a href="/" id="logo">
+            <h1 data-aos="slide-up">Linux</h1>
+          </a>
+        
+      
+  
+      
+        
+        
+        <h2 id="subtitle-wrap" data-aos="slide-down">
+          
+        </h2>
+      
+    </div>
+  </div>
+</header>
+        <div id="content"
+          
+          class="sidebar-right"  >
+          <aside id="sidebar">
+  
+  
+  <div class="sidebar-wrapper wrap-sticky">
+    <div
+      class="sidebar-wrap"
+      data-aos="fade-up"
+    >
+      
+        <div class="sidebar-toc-sidebar">
+          <div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#apt">apt</a></li>
+    <li><a href="#zsh">zsh</a></li>
+    <li><a href="#i3wm">i3wm</a>
+      <ul>
+        <li><a href="#参考链接">参考链接</a></li>
+        <li><a href="#默认的快捷键">默认的快捷键</a></li>
+        <li><a href="#定制i3wm">定制i3wm</a></li>
+      </ul>
+    </li>
+    <li><a href="#小工具">小工具</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+        </div>
+        <div class="sidebar-common-sidebar hidden">
+          
+<div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.webp"
+    data-sizes="auto"
+    alt="TrustMe"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">TrustMe</div>
+  <div class="sidebar-description">你要信我啊</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div>
+    
+    <div class="sidebar-state-number">59</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">
+      0
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">7</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+</div>
+<div class="sidebar-menu">
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="首页"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link">首页</div>
+    </div>
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/archives"
+        aria-label="归档"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link">归档</div>
+    </div>
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/about"
+        aria-label="关于"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link">关于</div>
+    </div>
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/friend"
+        aria-label="友链"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link">友链</div>
+    </div>
+  
+</div>
+
+        </div>
+      
+
+      
+        <div class="sidebar-btn-wrapper" style="position:static">
+          <div class="sidebar-toc-btn current"></div>
+          <div class="sidebar-common-btn"></div>
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="sidebar-widget">
+    
+  </div>
+</aside>
+
+          <section id="main">
+  <article
+  class="h-entry article"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <div
+    class="article-inner"
+    data-aos="fade-up"
+  >
+    <div class="article-meta">
+      <div class="article-date">
+  <span
+    class="article-date-link"
+    data-aos="zoom-in"
+  >
+    <time datetime="2025-03-01 00:00:00 &#43;0000 UTC" itemprop="datePublished"
+      >2025-03-01</time
+    >
+    <time style="display: none;" id="post-update-time"
+      >2025-03-01</time
+    >
+  </span>
+</div>
+
+      <div class="article-category">
+  
+</div>
+
+    </div>
+    <div class="hr-line"></div>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+      
+        <h1 id="安装">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85"></a>
+安装
+</h1><p>首先从<a href="https://cn.ubuntu.com/download/desktop">下载Ubuntu桌面系统 | Ubuntu</a>上下载镜像文件，下载完成之后，下载启动盘制作工具的软件，使用<a href="https://rufus.ie/zh/">Rufus - 轻松创建 USB 启动盘</a>或者<a href="https://ultraiso.net/">UltraISO软碟通中文官方网站 - 光盘映像文件制作/编辑/转换工具</a>。准备一个8G以上的U盘，==注意，U盘一定要先格式化，文件系统格式为FAT32==。</p>
+<p>制作启动盘请参考<a href="https://blog.csdn.net/qq_43901693/article/details/95535051">UltralSO 软碟通制作U盘启动盘（图解详细 完美避坑）_软碟通怎么制作u盘启动盘-CSDN博客</a>或<a href="https://zhuanlan.zhihu.com/p/370193387">Windows10怎么使用Rufus制作USB启动盘？ - 知乎 (zhihu.com)</a></p>
+<p>制作好启动盘之后，重启电脑的时候，等待出现电脑的Logo的时候，按住进入BISO的按键（华硕是F2），拖动启动顺序（Boot）</p>
+<p><a href="https://cn.linux-terminal.com/?p=7582">https://cn.linux-terminal.com/?p=7582</a></p>
+<h1 id="基础工具">
+<a class="header-anchor" href="#%e5%9f%ba%e7%a1%80%e5%b7%a5%e5%85%b7"></a>
+基础工具
+</h1><h2 id="apt">
+<a class="header-anchor" href="#apt"></a>
+apt
+</h2><p><code>apt</code>是包管理工具,常用命令如下：</p>
+<p><code>apt</code> 常用的命令有：</p>
+<ul>
+<li>
+<p><strong>更新本地包列表：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
+</span></span></code></pre></div></li>
+<li>
+<p><strong>升级所有已安装的软件包：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt upgrade
+</span></span></code></pre></div></li>
+<li>
+<p><strong>安装新的软件包：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install &lt;package_name&gt;
+</span></span></code></pre></div></li>
+<li>
+<p><strong>删除已安装的软件包：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt remove &lt;package_name&gt;
+</span></span></code></pre></div></li>
+<li>
+<p><strong>完全删除软件包（包括配置文件）：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt purge &lt;package_name&gt;
+</span></span></code></pre></div></li>
+<li>
+<p><strong>清理系统不再需要的包：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt autoremove
+</span></span></code></pre></div></li>
+<li>
+<p><strong>显示有关包的信息：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">apt show &lt;package_name&gt;
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="zsh">
+<a class="header-anchor" href="#zsh"></a>
+zsh
+</h2><p>参考链接</p>
+<p><a href="https://www.haoyep.com/posts/zsh-config-oh-my-zsh/">Zsh 安装与配置，使用 Oh-My-Zsh 美化终端 | Leehow的小站 (haoyep.com)</a></p>
+<p>安装及使用zsh</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install git
+</span></span><span class="line"><span class="cl">sudo apt install zsh
+</span></span><span class="line"><span class="cl">wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - <span class="p">|</span> sh
+</span></span><span class="line"><span class="cl">chsh -s /usr/bin/zsh
+</span></span></code></pre></div><p>这里的<code>chsh</code>命令是将shell设置为zsh，如果想要换回bash，首先要查看有哪些shell</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat   /etc/shells
+</span></span></code></pre></div><p>换回去只需要再使用<code>chsh</code>即可</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">chsh  -s  /bin/bash 
+</span></span></code></pre></div><p>安装主题</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone --depth<span class="o">=</span><span class="m">1</span> https://github.com/romkatv/powerlevel10k.git <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="nv">$HOME</span><span class="p">/.oh-my-zsh/custom</span><span class="si">}</span>/themes/powerlevel10k
+</span></span></code></pre></div><p>安装字体</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get install fonts-powerline
+</span></span></code></pre></div><p>更新源</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">source</span> ~/.zshrc
+</span></span></code></pre></div><p>之后按下<!-- raw HTML omitted -->CTRL<!-- raw HTML omitted --> + <!-- raw HTML omitted -->SHIFT<!-- raw HTML omitted --> + <!-- raw HTML omitted -->r<!-- raw HTML omitted -->更新</p>
+<h2 id="i3wm">
+<a class="header-anchor" href="#i3wm"></a>
+i3wm
+</h2><h3 id="参考链接">
+<a class="header-anchor" href="#%e5%8f%82%e8%80%83%e9%93%be%e6%8e%a5"></a>
+参考链接
+</h3><p><a href="https://linux.cn/article-15955-1.html">桌面应用|i3 窗口管理器终极定制指南 (linux.cn)</a></p>
+<h3 id="默认的快捷键">
+<a class="header-anchor" href="#%e9%bb%98%e8%ae%a4%e7%9a%84%e5%bf%ab%e6%8d%b7%e9%94%ae"></a>
+默认的快捷键
+</h3><table>
+  <thead>
+      <tr>
+          <th>按键绑定</th>
+          <th>描述</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>Mod + Enter</code></td>
+          <td>打开终端。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + ←</code></td>
+          <td>切换到左侧窗口。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + →</code></td>
+          <td>切换到右侧窗口。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + ↑</code></td>
+          <td>切换到上方窗口。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + ↓</code></td>
+          <td>切换到下方窗口。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + ←</code></td>
+          <td>将窗口移动到左侧。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + →</code></td>
+          <td>将窗口移动到右侧。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + ↑</code></td>
+          <td>将窗口移动到上方。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + ↓</code></td>
+          <td>将窗口移动到下方。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + f</code></td>
+          <td>将焦点窗口切换到全屏模式。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + v</code></td>
+          <td>下一个窗口将垂直放置。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + h</code></td>
+          <td>下一个窗口将水平放置。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + s</code></td>
+          <td>启用堆叠式窗口布局。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + w</code></td>
+          <td>启用选项卡式窗口布局。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + Space</code></td>
+          <td>启用浮动窗口（针对焦点窗口）。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + 鼠标左键单击</code></td>
+          <td>使用鼠标拖动整个窗口。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + 0-9</code></td>
+          <td>切换到另一个工作区。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + 0-9</code></td>
+          <td>将窗口移动到另一个工作区。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + d</code></td>
+          <td>打开应用程序启动器（D 菜单）。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + q</code></td>
+          <td>关闭焦点窗口。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + c</code></td>
+          <td>重新加载 i3 配置文件。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + r</code></td>
+          <td>重启 i3 窗口管理器。</td>
+      </tr>
+      <tr>
+          <td><code>Mod + Shift + e</code></td>
+          <td>退出 i3 窗口管理器。</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="定制i3wm">
+<a class="header-anchor" href="#%e5%ae%9a%e5%88%b6i3wm"></a>
+定制i3wm
+</h3><p>安装壁纸插件</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install feh
+</span></span></code></pre></div><p>打开i3wm配置文件</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">vim ~/.config/i3/config
+</span></span></code></pre></div><p>在config文件后面添加以下命令设置壁纸</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">exec_always feh --bg-fill /path/to/wallpaper
+</span></span></code></pre></div><h2 id="小工具">
+<a class="header-anchor" href="#%e5%b0%8f%e5%b7%a5%e5%85%b7"></a>
+小工具
+</h2><table>
+  <thead>
+      <tr>
+          <th>操作</th>
+          <th>工具名称</th>
+          <th>网址</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>代替man的工具</td>
+          <td>Npm install -g Tldr</td>
+          <td><a href="https://github.com/tldr-pages/tldr">GitHub   - tldr-pages/tldr: 📚 Collaborative cheatsheets for console commands</a></td>
+      </tr>
+      <tr>
+          <td>安装tldr需要先安装</td>
+          <td>nodejs、npm</td>
+          <td>这里可能需要重启虚拟机才能生效</td>
+      </tr>
+      <tr>
+          <td>对脚本文件进行错误提示</td>
+          <td>shellcheck</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>可以最大化利用terminal</td>
+          <td>Tmux</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>编辑器之神</td>
+          <td>Vim</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>代替find</td>
+          <td>fd</td>
+          <td><a href="https://github.com/sharkdp/fd">GitHub - sharkdp/fd: A simple, fast and   user-friendly alternative to &lsquo;find&rsquo;</a></td>
+      </tr>
+      <tr>
+          <td>代替grep</td>
+          <td>rg</td>
+          <td><a href="https://github.com/BurntSushi/ripgrep">github.com</a></td>
+      </tr>
+      <tr>
+          <td>文件夹工具，可以对文件夹的切换进行优化</td>
+          <td>fasd</td>
+          <td><a href="https://github.com/clvv/fasd">GitHub - clvv/fasd: Command-line   productivity booster, offers quick access to files and directories, inspired   by autojump, z and v.</a></td>
+      </tr>
+      <tr>
+          <td>模糊文件查找</td>
+          <td>Ctrlp</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>文件浏览器</td>
+          <td>nerdtree</td>
+          <td><a href="https://github.com/preservim/nerdtree#frequently-asked-questions">GitHub   - preservim/nerdtree: A tree explorer plugin for vim.</a></td>
+      </tr>
+      <tr>
+          <td>代码联想</td>
+          <td>Youcompleteme</td>
+          <td><a href="https://www.jianshu.com/p/4cbdadab3ad0">YouCompleteMe   安装配置方法 - 简书 (jianshu.com)</a></td>
+      </tr>
+      <tr>
+          <td>文件层级</td>
+          <td></td>
+          <td><a href="https://github.com/Yggdroot/indentLine">Yggdroot/indentLine: A vim   plugin to display the indention levels with thin vertical lines (github.com)</a></td>
+      </tr>
+      <tr>
+          <td>图床工具</td>
+          <td>PicList</td>
+          <td><a href="https://github.com/Kuingsmile/PicList">https://github.com/Kuingsmile/PicList</a></td>
+      </tr>
+  </tbody>
+</table>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <ul class="article-tag-list" itemprop="keywords">
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/%e8%bd%af%e4%bb%b6%e5%8f%8a%e5%b7%a5%e5%85%b7"
+        rel="tag"
+        >软件及工具</a
+      >
+    </li>
+  
+</ul>
+
+    </footer>
+  </div>
+  
+    
+  <nav
+    id="article-nav"
+    data-aos="fade-up"
+  >
+    
+      <div class="article-nav-link-wrap article-nav-link-left">
+        
+          
+          
+            <img
+              data-src="https://c-ssl.duitang.com/uploads/blog/202309/17/vDSABW1nsd89yv5.jpg"
+              data-sizes="auto"
+              alt="Makefile"
+              class="lazyload"
+            />
+          
+        
+        <a href="http://localhost:1313/post/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/makefile/"></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">
+          
+            Makefile
+          
+        </h3>
+      </div>
+    
+
+    
+      <div class="article-nav-link-wrap article-nav-link-right">
+        
+          
+          
+            <img
+              data-src="https://c-ssl.duitang.com/uploads/blog/202309/17/vDSABW1nsd89yv5.jpg"
+              data-sizes="auto"
+              alt="Latex"
+              class="lazyload"
+            />
+          
+        
+        <a href="http://localhost:1313/post/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/latex/"></a>
+        <div class="article-nav-caption">后一篇</div>
+        <h3 class="article-nav-title">
+          
+            Latex
+          
+        </h3>
+      </div>
+    
+  </nav>
+
+
+  
+</article>
+
+
+
+
+
+
+
+
+
+
+</section>
+        </div>
+        
+        
+        
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+<footer id="footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info">
+    <div>
+      <span class="icon-copyright"></span>
+      2020 -
+      2025
+      <span class="footer-info-sep rotate"></span>
+      TrustMe
+    </div>
+    
+      <div>
+        基于&nbsp;<a
+          href="https://gohugo.io/"
+          target="_blank"
+          >Hugo</a
+        >&nbsp; Theme.<a
+          href="https://github.com/D-Sketon/hugo-theme-reimu"
+          target="_blank"
+          >Reimu</a
+        >
+      </div>
+    
+    
+      <div>
+        <span class="icon-brush"
+          >&nbsp;
+            58.9k
+          </span
+        >
+        &nbsp;|&nbsp;
+        <span class="icon-coffee">&nbsp;
+          
+          
+
+          05:07
+        </span>
+      </div>
+    
+    
+    
+    
+      <div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv"
+          >总访问量&nbsp;<span
+            id="busuanzi_value_site_pv"
+          ></span
+        ></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv"
+          >总访客量&nbsp;<span
+            id="busuanzi_value_site_uv"
+          ></span
+        ></span>
+      </div>
+    
+  </div>
+</footer>
+
+        
+          <div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div>
+        
+        <div id="mask" class="hide"></div>
+      </div>
+      <nav id="mobile-nav">
+  <div class="sidebar-wrap">
+    
+      <div class="sidebar-toc-sidebar">
+        <div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#apt">apt</a></li>
+    <li><a href="#zsh">zsh</a></li>
+    <li><a href="#i3wm">i3wm</a>
+      <ul>
+        <li><a href="#参考链接">参考链接</a></li>
+        <li><a href="#默认的快捷键">默认的快捷键</a></li>
+        <li><a href="#定制i3wm">定制i3wm</a></li>
+      </ul>
+    </li>
+    <li><a href="#小工具">小工具</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+      </div>
+      <div class="sidebar-common-sidebar hidden">
+        
+<div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.webp"
+    data-sizes="auto"
+    alt="TrustMe"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">TrustMe</div>
+  <div class="sidebar-description">你要信我啊</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div>
+    
+    <div class="sidebar-state-number">59</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">
+      0
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">7</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+</div>
+<div class="sidebar-menu">
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="首页"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link">首页</div>
+    </div>
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/archives"
+        aria-label="归档"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link">归档</div>
+    </div>
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/about"
+        aria-label="关于"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link">关于</div>
+    </div>
+  
+    <div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/friend"
+        aria-label="友链"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>
+        
+          
+            &#xe62b;
+          
+        
+      </div>
+      <div class="sidebar-menu-link">友链</div>
+    </div>
+  
+</div>
+
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-btn-wrapper">
+      <div class="sidebar-toc-btn current"></div>
+      <div class="sidebar-common-btn"></div>
+    </div>
+  
+</nav>
+
+    </div>
+    
+      <div class="site-search">
+        <div class="reimu-popup popup">
+          <div class="reimu-search">
+            <div class="reimu-search-input-icon"></div>
+            <div class="reimu-search-input" id="reimu-search-input"></div>
+            <div class="popup-btn-close"></div>
+          </div>
+          <div class="reimu-results">
+            <div id="reimu-stats"></div>
+            <div id="reimu-hits"></div>
+            <div id="reimu-pagination" class="reimu-pagination"></div>
+          </div>
+          <img class="reimu-bg" src="/images/reimu.png" />
+        </div>
+      </div>
+    
+    
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
+    
+    
+    
+    
+    integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"
+  ></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
+    
+    
+    
+    
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"
+  ></script>
+
+
+
+
+
+
+
+
+
+  
+      
+      <script src="/js/main.js" ></script>
+      
+
+
+
+  
+
+
+
+
+
+  
+      
+      <script src="/js/aos.js" ></script>
+      
+
+  <script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", aosInit);
+    } else {
+      aosInit();
+    }
+  </script>
+
+
+
+
+
+
+
+
+  
+      
+      <script src="/js/pjax_main.js" data-pjax></script>
+      
+
+
+
+  <script>
+    var ALGOLIA_CONFIG = {
+      logo: '\/images\/algolia_logo.svg',
+      algolia: {
+        applicationID: "",
+        apiKey: "",
+        indexName: "",
+        hits: {
+          "per_page": parseInt("10")
+        },
+        labels: {
+          "input_placeholder": "搜索.....",
+          "hits_empty": "未发现与 「${query}」相关内容",
+          "hits_stats": "找到${hits}条结果（用时 ${time} ms）"
+        }
+      }
+    };
+  </script>
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"
+    defer
+    
+    
+    
+    integrity="sha384-xvLS0jfKuoREs7pqkRI/OI8GcqohO5S&#43;jQz7ZBtQXnsXmD&#43;9jDOOY4cL6dCPzlrk" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/instantsearch.js@4.56.1/dist/instantsearch.production.min.js"
+    defer
+    
+    
+    
+    integrity="sha384-hHJCflT4KBLQyHfKO9vpstIcFKn/Y&#43;KHTORelMMEn7mOp2AVPp&#43;7fr03dLgZiV3J" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+
+
+
+
+  
+      
+      <script src="/js/algolia_search.js" ></script>
+      
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/mouse-firework@0.1.0/dist/index.umd.js"
+    
+    
+    
+    
+    integrity="sha384-KM6i7tu43nYd6e0beIljxHMC5tZc58XBDu7pPA58w50h18Jsx7gLdimfS09RXlKv" crossorigin="anonymous"
+  ></script>
+
+
+<script>
+  if (window.firework) {
+    const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"#ff5252\",\"#ff7c7c\",\"#ffafaf\",\"#ffd0d0\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"#ff0000\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
+    options.excludeElements = options.excludeelements;
+    delete options.excludeelements;
+    window.firework(options);
+  }
+</script>
+
+
+
+
+
+
+
+
+<div id="lazy-script">
+  <div>
+    
+      
+      
+        
+      
+      <script data-pjax>
+        window.REIMU_POST = {
+          author: "TrustMe",
+          title: "Linux",
+          url: "http:\/\/localhost:1313\/post\/%E8%BD%AF%E4%BB%B6%E5%8F%8A%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8\/linux\/",
+          description: " 安装 首先从下载Ubuntu桌面系统 | Ubuntu上下载镜像文件，下载完成之后，下载启动盘制作工具的软件，使用Rufus - 轻松创建 USB 启动盘或者UltraISO软碟通中文官方网站 - 光盘映像文件制作\/编辑\/转换工具。准备一个8G以上的U盘，==注意，U盘一定要先格式化，文件系统格式为FAT32==。\n制作启动盘请参考UltralSO 软碟通制作U盘启动盘（图解详细 完美避坑）_软碟通怎么制作u盘启动盘-CSDN博客或Windows10怎么使用Rufus制作USB启动盘？ - 知乎 (zhihu.com)\n制作好启动盘之后，重启电脑的时候，等待出现电脑的Logo的时候，按住进 …",
+          cover: "http:\/\/localhost:1313\/images\/background.jpg",
+        };
+      </script>
+    
+    
+    
+      
+
+
+
+
+
+  
+      
+      <script src="/js/insert_highlight.js" data-pjax></script>
+      
+
+      
+      
+      
+      
+      <script type="module" data-pjax>
+        const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;
+
+        const pswp = () => {
+          if (_$$('.article-entry a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-entry',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")
+            }).init();
+          }
+          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-gallery',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")
+            }).init();
+          }
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
+    
+    async
+    
+    
+    integrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"
+  ></script>
+
+
+
+
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script>
+
+
+<script>
+  const reimuCopyright = String.raw`
+   ______     ______     __     __    __     __  __    
+  /\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+  \ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+   \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+    \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                    
+  `;
+  console.log(String.raw`%c ${reimuCopyright}`, "color: #ff5252;");
+  console.log(
+    "%c Theme.Reimu" + " %c https://github.com/D-Sketon/hugo-theme-reimu ",
+    "color: white; background: #ff5252; padding:5px 0;",
+    "padding:4px;border:1px solid #ff5252;",
+  );
+</script>
+
+
+
+
+  </body>
+</html>

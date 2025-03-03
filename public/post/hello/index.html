@@ -312,6 +312,8 @@
   <nav id="sub-nav">
     
     
+      <a id="nav-search-btn" class="nav-icon popup-trigger" title="搜索"></a>
+    
   </nav>
 </div>
 <header id="header">
@@ -559,21 +561,18 @@
     
       <div class="article-nav-link-wrap article-nav-link-right">
         
-          
-          
-            <img
-              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
-              data-sizes="auto"
-              alt="hehe"
-              class="lazyload"
-            />
-          
+          <img
+            data-src="https://gitlab.com/18355291538/picture/-/raw/main/pictures/2024/08/6_11_15_6_202408061115430.png"
+            data-sizes="auto"
+            alt="计算机系统基础"
+            class="lazyload"
+          />
         
-        <a href="http://localhost:1313/post/test/asm/"></a>
+        <a href="http://localhost:1313/post/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/"></a>
         <div class="article-nav-caption">后一篇</div>
         <h3 class="article-nav-title">
           
-            hehe
+            计算机系统基础
           
         </h3>
       </div>
@@ -638,7 +637,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            6.7k
+            2.5k
           </span
         >
         &nbsp;|&nbsp;
@@ -646,7 +645,7 @@
           
           
 
-          00:33
+          00:13
         </span>
       </div>
     
@@ -804,6 +803,22 @@
 
     </div>
     
+      <div class="site-search">
+        <div class="reimu-popup popup">
+          <div class="reimu-search">
+            <div class="reimu-search-input-icon"></div>
+            <div class="reimu-search-input" id="reimu-search-input"></div>
+            <div class="popup-btn-close"></div>
+          </div>
+          <div class="reimu-results">
+            <div id="reimu-stats"></div>
+            <div id="reimu-hits"></div>
+            <div id="reimu-pagination" class="reimu-pagination"></div>
+          </div>
+          <img class="reimu-bg" src="/images/reimu.png" />
+        </div>
+      </div>
+    
     
 
 
@@ -898,6 +913,72 @@
       <script src="/js/pjax_main.js" data-pjax></script>
       
 
+
+
+  <script>
+    var ALGOLIA_CONFIG = {
+      logo: '\/images\/algolia_logo.svg',
+      algolia: {
+        applicationID: "",
+        apiKey: "",
+        indexName: "",
+        hits: {
+          "per_page": parseInt("10")
+        },
+        labels: {
+          "input_placeholder": "搜索.....",
+          "hits_empty": "未发现与 「${query}」相关内容",
+          "hits_stats": "找到${hits}条结果（用时 ${time} ms）"
+        }
+      }
+    };
+  </script>
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"
+    defer
+    
+    
+    
+    integrity="sha384-xvLS0jfKuoREs7pqkRI/OI8GcqohO5S&#43;jQz7ZBtQXnsXmD&#43;9jDOOY4cL6dCPzlrk" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  <script
+    src="https://npm.webcache.cn/instantsearch.js@4.56.1/dist/instantsearch.production.min.js"
+    defer
+    
+    
+    
+    integrity="sha384-hHJCflT4KBLQyHfKO9vpstIcFKn/Y&#43;KHTORelMMEn7mOp2AVPp&#43;7fr03dLgZiV3J" crossorigin="anonymous"
+  ></script>
+
+
+  
+
+
+
+
+
+  
+      
+      <script src="/js/algolia_search.js" ></script>
+      
 
 
 
